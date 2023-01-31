@@ -1,0 +1,96 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 10px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    margin-top: 50px;
+}
+
+h3 {
+    margin-left: 10px;
+}
+
+h4 {
+    margin-left: 10px;
+}
+
+.main-nav {
+    display: flex;
+    margin: 15px;
+    justify-content: space-around;
+}
+
+.main-nav button {
+    margin: 10px;
+    padding: 10px 50px;
+    font-weight: 700;
+    border-radius: 10px;
+    font-size: 16px;
+    border: 1px solid transparent;
+    text-transform: capitalize;
+}
+
+
+.header {
+    display: flex;
+    background-color: #FADBD8;
+    color: aliceblue;
+    padding: 20px;
+    align-items: center;
+}
+
+.header div {
+    width: 60%;;
+    margin-left: 25%;
+    align-items: center;
+}
+
+.header img {
+    border-radius: 50%;
+    width: 30%;
+    height: 30%;
+    margin-left: 20%;
+}
+
+.main-section--ul {
+    list-style: none;
+}
+
+.main-section--ul li{
+    padding: 7px;
+}
+
+.fa-solid, .fa-brands {
+    padding: 0 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.main-section__article-educacion div {
+    margin-left: 20px;
+}
+
+.main-section__article-habilidades ul {
+    list-style: none;
+}
+
+.main-section__article-habilidades li {
+    padding: 5px;
+}
+
+.main-section__article-experiencia {
+    margin-left: 10px;
+}
+
+.main-section__article-experiencia li {
+    padding: 7px;
+}
